@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>DevConnect</h1>
+        <p>A melhor plataforma de conexão para desenvolvedores</p>
+    </header>
+    <main>
+        <div class="opcoes">
+            <input type="radio" id="login" name="toggle" checked>
+            <label for="login">Login</label>
+    
+            <input type="radio" id="cadastro" name="toggle">
+            <label for="cadastro">Cadastro</label>
+        </div>
+
+        <div id="caixa-login" class="caixa-form">
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <button class="entrar-btn">Entrar</button>
+        </div>
+
+        <div id="caixa-cadastro" class="caixa-form">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="password" placeholder="Confirme a senha" required>
+            <button class="cadastrar-btn">Cadastrar</button>
+        </div>
+    </main>
+
+    <nav>
+        <h5 style="color: aliceblue; font-family: Arial, Helvetica, sans-serif;">Nos acompanhe nas redes sociais</h5>
+        <a href="instagram.com">
+            <img style="width: 29px" src="/images/insta.png" alt="Nosso instagram"></a>
+        <a href="facebook.com">
+            <img style="width: 30px"src="/images/faceb.png" alt="Nosso facebook">
+        </a>
+        <a href="linkedin.com">
+            <img style="width: 31px" src="/images/linke.png" alt="Nosso linkedin">
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
